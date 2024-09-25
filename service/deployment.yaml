@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  webdeployment
+  name: webdeployment
   labels:
-    name:  webdeployment
+    name: webdeployment
 spec:
   replicas: 2
   selector:
